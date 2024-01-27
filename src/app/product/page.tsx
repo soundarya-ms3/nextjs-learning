@@ -12,6 +12,12 @@ export default function Product() {
       <h2>
         <Link href="product/2">Product list 2</Link>
       </h2>
+      <h2>
+        <Link href="product/3" replace>
+          Product list 3
+        </Link>{" "}
+        {/* replace -> navigate to home page */}
+      </h2>
     </>
   );
 }
